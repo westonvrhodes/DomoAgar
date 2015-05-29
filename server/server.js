@@ -9,14 +9,14 @@ var foods = [];
 var sockets = [];
 
 
-var maxSizeMass = 50;
+var maxSizeMass = 1000;
 var maxMoveSpeed = 10;
 
 var massDecreaseRatio = 1000;
 
-var foodMass = 1;
+var foodMass = 3;
 
-var newFoodPerPlayer = 30;
+var newFoodPerPlayer = 50;
 var respawnFoodPerPlayer = 1;
 
 var foodRandomWidth = 500;
@@ -25,7 +25,7 @@ var maxFoodCount = 50;
 
 var noPlayer = 0;
 
-var defaultPlayerSize = 10;
+var defaultPlayerSize = 30;
 
 var eatableMassDistance = 5;
 
